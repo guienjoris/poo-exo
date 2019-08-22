@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exo Classe</title>
+</head>
+<body>
+    <form>
+        <input type="number" name="matricule" id="matricule" placeholder="matricule">
+        <input type="text" name="nom" id="nom" placeholder="nom">
+        <input type="text" name="prenom" id="prenom" placeholder="prenom">
+        <label for="datenaissance">Date de naissance: </label>
+        <input type="date" name="datenaissance" id="datenaissance">
+        <label for="dateembauche">Date d'embauche: </label>
+        <input type="date" name="dateembauche" id="dateembauche">
+        <input type="number" name="salaire" id="salaire" > € </input>
+        <input type="button" value="Envoyer" onclick="onClick()">
+    </form>
+    <p>Matricule: <span id="matricule_output"></span></p>
+    <p>Nom complet: <span id="nomComplet_output"></span></p>
+    <p>Age: <span id="age_output"></span></p>
+    <p>Ancienneté: <span id="anciennete_output"></span></p>
+    <p>Salaire: <span id="salaire_output"></span></p>
+    <script src="./index.js"></script>
+</body>
+</html>
